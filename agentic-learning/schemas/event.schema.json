@@ -1,0 +1,43 @@
+{
+  "$id": "event.schema.json",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "concept_id": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "trace_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "event_id",
+    "ts",
+    "user_id",
+    "type",
+    "version"
+  ]
+}

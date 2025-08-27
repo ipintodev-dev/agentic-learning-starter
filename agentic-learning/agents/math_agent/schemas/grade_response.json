@@ -1,0 +1,19 @@
+{
+  "$id": "tool.grade_response",
+  "type": "object",
+  "properties": {
+    "item_id": {
+      "type": "string"
+    },
+    "student_answer": {
+      "type": "string"
+    },
+    "rubric_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "item_id",
+    "student_answer"
+  ]
+}

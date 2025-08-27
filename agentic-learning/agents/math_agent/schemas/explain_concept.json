@@ -1,0 +1,15 @@
+{
+  "$id": "tool.explain_concept",
+  "type": "object",
+  "properties": {
+    "concept_id": {
+      "type": "string"
+    },
+    "learner_context": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "concept_id"
+  ]
+}
